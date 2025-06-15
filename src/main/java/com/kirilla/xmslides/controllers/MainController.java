@@ -1,6 +1,5 @@
 package com.kirilla.xmslides.controllers;
 
-
 import com.kirilla.xmslides.controllers.main_modules.CodeEditor;
 import com.kirilla.xmslides.controllers.main_modules.ElementInspector;
 import com.kirilla.xmslides.controllers.main_modules.SlideListView;
@@ -34,7 +33,6 @@ public class MainController implements Initializable {
     CodeEditor codeEditor;
     SlideListView slideListView;
 
-    //TODO Rework that afwul piece of code
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         SplitPane center = (SplitPane) mainWindow.getCenter();
@@ -78,7 +76,7 @@ public class MainController implements Initializable {
         }
     }
 
-    public void Update(){
+    public void Update() {
         slideWorkspace.loadSlide();
         slideListView.Update();
     }
