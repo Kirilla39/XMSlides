@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirilla.xmslides.controllers.HomeController">
+    <ListView fx:id="projectsListView" VBox.vgrow="ALWAYS">
+        <!-- This will contain your list of project buttons -->
+    </ListView>
+
+    <HBox alignment="BOTTOM_RIGHT" spacing="10" style="-fx-padding: 10;">
+        <Button text="Open" fx:id="openButton" defaultButton="true"/>
+        <Button text="New" fx:id="newButton"/>
+    </HBox>
+</VBox>

@@ -1,0 +1,14 @@
+.code-editor {
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 14px;
+}
+
+.xml-element {
+    -fx-fill: #0000FF;
+    -fx-font-weight: bold;
+}
+
+.xml-comment {
+    -fx-fill: #008000;
+    -fx-font-style: italic;
+}

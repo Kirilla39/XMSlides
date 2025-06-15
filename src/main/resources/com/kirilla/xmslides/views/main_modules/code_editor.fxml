@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.fxmisc.richtext.CodeArea?>
+<CodeArea xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.kirilla.xmslides.controllers.main_modules.CodeEditor"
+          minHeight="180" fx:id="codeEditor">
+
+</CodeArea>

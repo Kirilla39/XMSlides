@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.kirilla.xmslides.controllers.main_modules.ElementInspector"
+      spacing="5" style="-fx-padding: 10;">
+    <Label fx:id="elementTypeLabel" style="-fx-font-weight: bold; -fx-font-size: 14;"/>
+    <Separator/>
+    <ScrollPane fitToWidth="true" style="-fx-background-color: transparent;">
+        <VBox fx:id="propertyContainer" spacing="10" style="-fx-padding: 5;"/>
+    </ScrollPane>
+</VBox>

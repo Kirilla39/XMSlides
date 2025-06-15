@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.transform.Scale?>
+
+<Pane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.kirilla.xmslides.controllers.main_modules.SlideWorkspace"
+            minWidth="200"
+            minHeight="180"
+            >
+    <ScrollPane fx:id="workspace">
+        <StackPane fx:id="slideContainer">
+            <transforms>
+                <Scale fx:id="zoomTransform"/>
+            </transforms>
+        </StackPane>
+    </ScrollPane>
+</Pane>
